@@ -1,0 +1,10 @@
+package assets;
+
+public class FinalResult {
+	
+	private Politician presindent;
+	private Politician governor;
+	private Politician senator;
+	private Politician congressman;
+	private Politician stateRepresentative;
+}

@@ -1,0 +1,39 @@
+package assets;
+
+import assetsEnum.VotingCapacity;
+
+public class Voter {
+	
+	private String name;
+	private int age;
+	private VotingCapacity votingCapacity;
+	
+	public Voter() {}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public VotingCapacity getVotingCapacity() {
+		return votingCapacity;
+	}
+
+	public void setVotingCapacity(VotingCapacity votingCapacity) {
+		if (age < 18)
+	};
+	
+	
+
+}

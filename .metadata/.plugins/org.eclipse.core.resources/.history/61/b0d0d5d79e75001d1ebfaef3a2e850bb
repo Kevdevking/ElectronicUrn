@@ -1,0 +1,46 @@
+package assets;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class electronicUrnRegistry {
+	
+	private List<Voter> voter = new ArrayList<>();
+	private List<Politician> president = new ArrayList<>();
+	private List<Politician> governor = new ArrayList<>();
+	private List<Politician> senator = new ArrayList<>();
+	private List<Politician> congressman = new ArrayList<>();
+	private List<Politician> stateRepresentative = new ArrayList<>();
+	
+	public electronicUrnRegistry() {}
+	
+	
+	public void addVoter(Voter voter) {
+		this.voter.add(voter);
+	}
+	
+	public void addpresident(Politician president) {
+		this.voter.add(president);
+	}
+
+
+	public void addGovernor(Politician governor) {
+		this.governor.add(governor);
+	}
+
+
+	public void setSenator(List<Politician> senator) {
+		this.senator = senator;
+	}
+
+
+	public void setCongressman(List<Politician> congressman) {
+		this.congressman = congressman;
+	}
+
+
+	public void setStateRepresentative(List<Politician> stateRepresentative) {
+		this.stateRepresentative = stateRepresentative;
+	}
+	
+}

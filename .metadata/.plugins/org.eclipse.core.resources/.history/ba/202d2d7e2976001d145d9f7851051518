@@ -1,0 +1,50 @@
+package assets;
+
+import assetsEnum.VotingCapability;
+
+public class Voter {
+	
+	private String name;
+	private int age;
+	private VotingCapability votingCapability;
+	
+	public Voter() {}
+
+	public Voter(String name, int age) {
+		this.name = name;
+		this.age = age;
+		this.votingCapability = this.getVotingCapability();
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public VotingCapability getVotingCapability() {
+		return votingCapability;
+	}
+
+	public void setVotingCapability(VotingCapability VotingCapability) {
+		String votingCapability = "Mandatory_vote";
+		
+		if ((age < 18 && age >= 16) || (age > 70)) {			
+			votingCapability = "Optional_vote";
+		} else if (age < 16) {
+			votingCapability = "Cant_vote";
+		}
+		
+		this.VotingCapability = assetsEnum.VotingCapability.valueOf(votingCapability);
+	}
+}

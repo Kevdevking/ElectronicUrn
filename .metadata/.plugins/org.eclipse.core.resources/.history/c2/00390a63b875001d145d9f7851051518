@@ -1,0 +1,10 @@
+package assetsEnum;
+
+public enum CandidateFor {
+
+	President,
+	Senator,
+	Governor,
+	Congressman,
+	State_Representative;	
+}

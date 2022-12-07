@@ -1,0 +1,65 @@
+package assets;
+
+import assetsEnum.CandidateFor;
+
+public class Politician {
+
+	private String name;
+	private int age;
+	private CandidateFor candidateFor;
+	private int number;
+	private int votes;
+	
+	public Politician() {}
+
+	public Politician(String name, int age, CandidateFor candidateFor, int number, int votes) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.candidateFor = candidateFor;
+		this.number = number;
+		this.votes = 0;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public CandidateFor getCandidateFor() {
+		return candidateFor;
+	}
+
+	public void setCandidateFor(CandidateFor candidateFor) {
+		this.candidateFor = candidateFor;
+	}
+
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+	public int getVotes() {
+		return votes;
+	}
+
+	public void addVote(int votes) {
+		this.votes++;
+	}	
+}
+	
+	

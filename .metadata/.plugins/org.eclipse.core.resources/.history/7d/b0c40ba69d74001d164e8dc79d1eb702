@@ -1,0 +1,6 @@
+package assetsEnum;
+
+public enum VotingCapacity {
+	Mandatory_vote,
+	Optional_vote;
+}

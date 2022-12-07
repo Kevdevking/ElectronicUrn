@@ -1,0 +1,58 @@
+package assets;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import assetsEnum.RunningFor;
+
+public class electronicUrnRegistry {
+	
+	private List<Voter> voter = new ArrayList<>();
+	private List<Politician> president = new ArrayList<>();
+	private List<Politician> governor = new ArrayList<>();
+	private List<Politician> senator = new ArrayList<>();
+	private List<Politician> congressman = new ArrayList<>();
+	private List<Politician> stateRepresentative = new ArrayList<>();
+	
+	public void generateElectronicUrnRegistry() {
+		
+		List<Voter> voter = new ArrayList<>();
+		List<Politician> president = new ArrayList<>();
+		List<Politician> governor = new ArrayList<>();
+		List<Politician> senator = new ArrayList<>();
+		List<Politician> congressman = new ArrayList<>();
+		List<Politician> stateRepresentative = new ArrayList<>();
+		
+		String name = "Johnny Sins";
+		int age = 55;
+		String runningFor = "President";
+		int number = 69;
+		
+		Politician president = new Politician(name, age, RunningFor.valueOf(runningFor) , number);
+	}
+	
+	
+	public void addVoter(Voter voter) {
+		this.voter.add(voter);
+	}
+	
+	public void addpresident(Politician president) {
+		this.president.add(president);
+	}
+
+	public void addGovernor(Politician governor) {
+		this.governor.add(governor);
+	}
+
+	public void setSenator(Politician senator) {
+		this.senator.add(senator);
+	}
+
+	public void setCongressman(Politician congressman) {
+		this.congressman.add(congressman);
+	}
+
+	public void setStateRepresentative(Politician stateRepresentative) {
+		this.stateRepresentative.add(stateRepresentative);
+	}	
+}

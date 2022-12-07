@@ -1,0 +1,43 @@
+package assets;
+
+public class FinalResult {
+	
+	private Politician presindent;
+	private Politician governor;
+	private Politician senator;
+	private Politician congressman;
+	private Politician stateRepresentative;
+	
+	public Politician getPresindent() {
+		return presindent;
+	}
+	public void setPresindent(Politician president) {
+		this.presindent = president;
+	}
+	public Politician getGovernor() {
+		return governor;
+	}
+	public void setGovernor(Politician governor) {
+		this.governor = governor;
+	}
+	public Politician getSenator() {
+		return senator;
+	}
+	public void setSenator(Politician senator) {
+		this.senator = senator;
+	}
+	public Politician getCongressman() {
+		return congressman;
+	}
+	public void setCongressman(Politician congressman) {
+		this.congressman = congressman;
+	}
+	public Politician getStateRepresentative() {
+		return stateRepresentative;
+	}
+	public void setStateRepresentative(Politician stateRepresentative) {
+		this.stateRepresentative = stateRepresentative;
+	}
+	
+	
+}
