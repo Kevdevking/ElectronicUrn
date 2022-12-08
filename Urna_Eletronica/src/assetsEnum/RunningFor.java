@@ -6,5 +6,6 @@ public enum RunningFor {
 	Senator,
 	Governor,
 	Congressman,
-	State_Representative;
+	State_Representative,
+	blank;
 }
