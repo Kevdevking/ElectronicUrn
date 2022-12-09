@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Politicians"/>
+		<item key="selection" value="Vote"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="Politician"/>
-			<item value="Politicians"/>
-			<item value=" CandidateFor"/>
-			<item value="VotingCapacity"/>
+			<item value="RegisterVoter"/>
+			<item value="state"/>
+			<item value="congressman"/>
+			<item value="senator"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Politicians"/>
-			<item value="RunningFor"/>
-			<item value="VotingCapability"/>
+			<item value="Vote"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

@@ -1,6 +1,6 @@
 package assets;
 
-import java.awt.Image;
+import javax.swing.ImageIcon;
 
 import assetsEnum.RunningFor;
 
@@ -11,7 +11,7 @@ public class Politicians {
 	private RunningFor runningFor;
 	private int number;
 	private int votes;
-	private Image image;
+	private ImageIcon image;
 	
 	public Politicians() {
 		
@@ -66,13 +66,20 @@ public class Politicians {
 		this.votes++;
 	}
 
-	public Image getImage() {
+	public ImageIcon getImage() {
 		return image;
 	}
 
-	public void setImage(Image image) {
+	public void setImage(ImageIcon image) {
 		this.image = image;
 	}
+
+	@Override
+	public String toString() {
+		return "Name: " + name + "\nRunning For=" + runningFor + "\nNumber of Votes=" + votes;
+	}
+	
+	
 }
 	
 	

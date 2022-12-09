@@ -1,7 +1,0 @@
-package assets;
-
-public class electronicUrnRegistry {
-	
-	private List<Voter> voter = new ArrayList<>();
-
-}
